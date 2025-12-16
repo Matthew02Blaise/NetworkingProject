@@ -93,7 +93,7 @@ public class PlayerController : NetworkBehaviour
 
     }
 
-    //Updates clients score if owner
+    //Updates clients score on screen only** if owner
     [ClientRpc]
     private void UpdateScoreClientRpc(int newScore)
     {
